@@ -1,8 +1,8 @@
 miVariable = 3
 print(miVariable)
-miVariable="Hola a todos los Estudiantes de la tecnicatura"
+miVariable = "Hola a todos los Estudiantes de la tecnicatura"
 print(miVariable)
-miVariable=3.5
+miVariable = 3.5
 print(miVariable)
 x=10
 y=2
