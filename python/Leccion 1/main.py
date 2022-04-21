@@ -36,3 +36,30 @@ print(type(x))
 x = False
 print(x)
 print(type(x))
+# Manejo de cadenas
+miGrupoFavorito = "Ramones: "
+caracteristicas = " The best Punk Rock Band"
+print("Mi grupo favorito es: ", miGrupoFavorito, caracteristicas)
+
+numero1 = "7"
+numero2 = "8"
+print(int(numero1) + int(numero2))
+# Tipos Booleano
+miBooleano = 3 > 2
+print(miBooleano)
+
+if miBooleano:
+    print("EL Resultado es Verdadero")
+else:
+    print("El resultado es falso")
+
+# Procesar la entrada del usuario
+# funcion input
+# resultado = input("Digite un numero: ") # regresa un dato de tipo string
+
+# Conversion de la entrada de datos
+numero3 = int(input("Escribe el primer numero: "))
+numero4 = int(input("Escribe el segundo numero: "))
+resultado2 = numero3 + numero4
+
+print("El resultado es: ", resultado2)
