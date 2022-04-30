@@ -1,3 +1,4 @@
+"""
 miVariable = 3
 print(miVariable)
 miVariable = "Hola a todos los Estudiantes de la tecnicatura"
@@ -63,3 +64,94 @@ numero4 = int(input("Escribe el segundo numero: "))
 resultado2 = numero3 + numero4
 
 print("El resultado es: ", resultado2)
+
+# Ejercicio python 1
+
+print("Califica tu Dia")
+respuesta = (input("¿Cómo estuvo tu día (1 al 10)?"))
+print("Mi día estuvo de:", respuesta)
+
+# Ejercicio python 2
+
+titulo = (input("Proporciona el título: "))
+autor = (input("Proporciona el título: "))
+
+print(titulo, " fue escrito por ", autor)
+
+operandoA = 8
+operandoB = 5
+suma = operandoA + operandoB
+print("El resultado de la suma es: ", suma)
+print(f"El resultado de la suma {suma}")
+
+resta = operandoA - operandoB
+print(f"El resultado de la resta es: {resta}")
+
+multiplicacion = operandoA * operandoB
+print(f"El resultado de la multiplicacion es: {multiplicacion}")
+
+division = operandoA / operandoB
+print(f"El resultado de la division es: {division}")
+
+division = operandoA // operandoB
+print(f"El resultado de la division es: {division}")
+
+modulo = operandoA % operandoB
+print(f"El residuo de la division es: {modulo}")
+
+exponente = operandoA ** operandoB
+print(f"El resultado del exponente es: {exponente}")
+"""
+"""
+alto = int(input("Proporciona el ancho del rectangulo: "))
+ancho = int(input("Proporciona el alto del rectangulo: "))
+area = alto * ancho
+perimetro = (alto + ancho) * 2
+print(f"Area: {area}")
+print(f"perimetro: {perimetro}")
+"""
+"""
+miVariable3 = 10
+print(miVariable3)
+# Operadores de reasignacion
+miVariable3 = miVariable3 + 1
+print(miVariable3)
+miVariable3 += 1
+print(miVariable3)
+miVariable3 -= 2
+print(miVariable3)
+miVariable3 *= 3
+print(miVariable3)
+miVariable3 /= 2
+print(miVariable3)
+
+# operadores de comparacion
+d = 4
+b = 2
+resultado = d == b
+print(resultado)
+resultado = d != b
+print(resultado)
+resultado = d > b
+print(resultado)
+resultado = d <= b
+print(resultado)
+resultado = d >= b
+print(resultado)
+"""
+"""
+numero = int(input("Ingrese el numero: "))
+
+if (numero % 2) == 0:
+    print(True)
+else:
+    print(False)
+"""
+numero = int(input("Ingrese la edad: "))
+
+if numero >= 18:
+    print(f"Eres mayor de edad {numero}")
+else:
+    print(f"Eres menor de edad {numero}")
+
+
