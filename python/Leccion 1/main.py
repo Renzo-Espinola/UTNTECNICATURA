@@ -247,7 +247,7 @@ else:
 """
 # Ejercicio 5
 nombre = input("Digite el nombre del libro: ")
-id = int(input("Digite el ID del libro: "))
+Id = int(input("Digite el ID del libro: "))
 precio = float(input("Digite el preico del libro: "))
 envio = bool(input("Indique si el envio es gratuito (True/False): "))
 print(f"Nombre: {nombre}")
