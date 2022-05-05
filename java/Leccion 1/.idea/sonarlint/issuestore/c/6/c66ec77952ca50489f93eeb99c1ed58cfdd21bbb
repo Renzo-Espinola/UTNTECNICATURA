@@ -1,0 +1,28 @@
+
+w
+java:S1192D"\Define a constant instead of duplicating this literal "El valor minimo del Short: " 3 times.(ÆÝ§”ûÿÿÿÿ
+w
+java:S1192E"\Define a constant instead of duplicating this literal "El valor maximo del Short: " 3 times.(Ý®äýûÿÿÿÿ
+P	java:S125	"<This block of commented-out lines of code should be removed.(¹¡‘C
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(Œ´Ìæøÿÿÿÿ
+N	java:S106?"9Replace this use of System.out or System.err by a logger.(®™å±
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(ÂÐï
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(Þ±ýÄùÿÿÿÿ
+S	java:S106D"9Replace this use of System.out or System.err by a logger.(ÆÝ§”ûÿÿÿÿ
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(Ý®äýûÿÿÿÿ
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(„ÝÚ…
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(ÐÊšÄúÿÿÿÿ
+N	java:S106J"9Replace this use of System.out or System.err by a logger.(ÞêÝ‚
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(þœ’Ëøÿÿÿÿ
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(½‡…·ùÿÿÿÿ
+S	java:S106O"9Replace this use of System.out or System.err by a logger.(š§‰úÿÿÿÿ
+Z	java:S106R"9Replace this use of System.out or System.err by a logger.(©“Ž¾ÿÿÿÿÿ8‘óüÀ‡0
+Z	java:S106S"9Replace this use of System.out or System.err by a logger.(’äÔ ýÿÿÿÿ8‘óüÀ‡0
+U	java:S106T"9Replace this use of System.out or System.err by a logger.(¶¡ûê8‘óüÀ‡0
+U	java:S106W"9Replace this use of System.out or System.err by a logger.(ÿˆáò8Ÿ±–Á‡0
+U	java:S106X"9Replace this use of System.out or System.err by a logger.(ªô…¨8 ±–Á‡0
+Z	java:S106Y"9Replace this use of System.out or System.err by a logger.(ËÑƒËûÿÿÿÿ8 ±–Á‡0
+`
+java:S1128">Remove this unused import 'javax.crypto.ShortBufferException'.(á½½¢øÿÿÿÿ8’’—Á‡0
+P
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8“’—Á‡0
