@@ -147,6 +147,7 @@ if (numero % 2) == 0:
 else:
     print(False)
 """
+"""
 numero = int(input("Ingrese la edad: "))
 
 if numero >= 18:
@@ -154,4 +155,105 @@ if numero >= 18:
 else:
     print(f"Eres menor de edad {numero}")
 
+# Operador AND Clase 04/05/2022
+print("OPERADOR AND")
+a = True
+b = True
+resultado = a and b
+print(resultado)
 
+a = False
+b = True
+resultado = a and b
+print(resultado)
+
+a = False
+b = False
+resultado = a and b
+print(resultado)
+
+# Operador OR
+print("OPERADOR OR")
+a = True
+b = True
+resultado = a or b
+print(resultado)
+
+a = False
+b = True
+resultado = a or b
+print(resultado)
+
+a = False
+b = False
+resultado = a and b
+print(resultado)
+
+# OPERADOR NOT
+print("OPERADOR NOT es unario solo una variable")
+a = False
+resultado = not a
+print(resultado)
+
+a = True
+resultado = not a
+print(resultado)
+
+# Ejercicio 1
+
+num = int(input("Ingrese el valor: "))
+if 0 <= num <= 5:
+    print(f"El valor {num} esta dentro del rango")
+else:
+    print(f"El valor {num} se encuentra fuera del rango")
+
+#Ejercicio 2
+
+vacaciones = False
+diaDescanso = True
+if not (vacaciones or diaDescanso):
+    print("Puede asistir al juego")
+else:
+    print("Tiene Trabajo que hacer")
+
+# Ejercicio 3 rango
+edad = int(input("Cual es la edad de la persona? "))
+
+if (edad >= 20 and edad <=29) or (edad >= 30 and edad <= 39):
+    print(f"La edad {edad} esta dentro del rango")
+else:
+    print(f"El edad {edad} se encuentra fuera del rango")
+
+veinte = edad > 19 and edad < 30
+treinta = edad > 29 and edad < 40
+if veinte or treinta:
+    if veinte:
+        print(f"La edad {edad} esta dentro del rango (20\'0)")
+    elif treinta:
+        print(f"El edad {edad} se encuentra fuera del rango (30\'0)")
+    else:
+        print(f"El edad {edad} se encuentra fuera del rango")
+
+else:
+    print(f"El edad {edad} se encuentra fuera del rango")
+
+# Ejercicio 4
+numero1 = int(input("Digite el valor para el numero1: "))
+numero2 = int(input("Digite el valor para el numero2: "))
+if numero1 > numero2:
+    print(f"El numero mayor es: {numero1}")
+else:
+    print(f"El numero mayor es: {numero2}")
+"""
+# Ejercicio 5
+nombre = input("Digite el nombre del libro: ")
+id = int(input("Digite el ID del libro: "))
+precio = float(input("Digite el preico del libro: "))
+envio = bool(input("Indique si el envio es gratuito (True/False): "))
+print(f"Nombre: {nombre}")
+print(f"id: {id}")
+print(f"precio: {precio}")
+if envio:
+    print("Envio: Gratuito")
+else:
+    print("Envio: No posee Envio Gratuito")
