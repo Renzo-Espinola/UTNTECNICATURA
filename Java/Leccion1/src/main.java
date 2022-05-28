@@ -139,6 +139,7 @@ public class main {
         System.out.println("edad = " + edad);
         */
         //Conversion de Tipos primitivos en java parte 2
+        /*
         var edadTexto = String.valueOf(10);
         System.out.println("edadTexto = " + edadTexto);
 
@@ -151,8 +152,145 @@ public class main {
         fraseChar = entrada.nextLine().charAt(0);
         System.out.println("FraseChar = " + fraseChar);
 
-        String color;
-        System.out.println(color);
-        color ="azul";
+        var a = "A";
+        System.out.println(a);
+        a = "B";
+        System.out.println(a);
+
+        int num1 = 5, num2 = 4;
+        //inferencia de tipos no se puede asignar varias variables en la misma linea
+        var solucion = num1 + num2;
+        System.out.println("Solucion de la suma= "+solucion);
+
+        solucion = num1 - num2;
+        System.out.println("solucion de la resta= "+solucion);
+
+        solucion= num1*num2;
+        System.out.println("Solucion de la multiplicacion= "+solucion);
+
+        solucion = num1/num2;
+        System.out.println("Solucion de la division="+solucion);
+
+        var solucion2 = 3.4/num2;
+        System.out.println("Solucion2 de la division="+solucion2);
+
+        solucion = num1 % num2;
+        System.out.println("solucion resultado del mod = "+solucion);
+
+        if (num1 % 2 == 0){
+            System.out.println("Es par");
+        }else{
+            System.out.println("Es impar");
+        }
+
+
+        int varNum1=4, varNum2=4;
+        int varNum3=varNum1+6 - varNum2;
+        System.out.println("varNum3= "+varNum3);
+
+        varNum1+=1;//Operador de Composicion
+        System.out.println("varNum1 suma = "+varNum1);
+
+        //- * / %
+        varNum1-=1;//Operador de Composicion resta
+        System.out.println("varNum1 resta= "+varNum1);
+        varNum1*=1;//Operador de Composicion producto
+        System.out.println("varNum1 producto = "+varNum1);
+        varNum1/=1;//Operador de Composicion division
+        System.out.println("varNum1 division = "+varNum1);
+        varNum1%=1;//Operador de Composicion modulo
+        System.out.println("varNum1 modulo = "+varNum1);
+        */
+        //Operadores unarios
+        var varA = 7;
+        var varB = -varA;
+        System.out.println("varA =" + varA);
+        System.out.println("varB = " + varB);
+        //Operador de negacion
+        var varC = true;
+        var varD = !varC;
+        System.out.println("VarD = " + varD);
+
+        //operadores unarios de incrmento: preincremento
+        var varE = 9;
+        var varF = ++varE;//primero se inc la variable y despues se usa su valor
+        System.out.println("varE = " + varE);//se incrementa la unidad
+        System.out.println("varF = " + varF);//va a sumar uno
+        //postincremento el simbolo va despues de la variable
+        var varG = 3;
+        var varH = varG++;
+        System.out.println("varG = " + varG);
+        System.out.println("varH = " + varH);
+
+        //Operadores unarios de decremento
+        //predecremento
+        var varI = 4;
+        var varJ = --varI;
+        System.out.println("varI = " + varI);//la variable ya esta en decremento
+        System.out.println("varJ = " + varJ);
+
+        //postdecremento
+        var varK = 8;
+        var varL = varK--;//primero el valor de la variable, luego queda el decremento
+        System.out.println("varK = " + varK);//aqui va el decremento en 11
+        System.out.println("varL = " + varL);
+
+        //Operadores de igualdad
+        var aNum = 5;
+        var bNUm = 4;
+        var cNum = (aNum == bNUm);
+        System.out.println("cnum = " + cNum);
+        var dNum = aNum != bNUm;
+        System.out.println("dNum = " + dNum);
+        var cadenaA = "Hello";
+        var cadenaB = "bye bye";
+        var cVar = cadenaA == cadenaB;
+        System.out.println("cVar = " + cVar);
+        var fvar = cadenaA.equals(cadenaB);
+        System.out.println("fvar = " + fvar);
+        //Operadores relacionales
+        var gVar = aNum > bNUm;
+        System.out.println("gVar = " + gVar);
+        if (aNum % 2 == 0) {
+            System.out.println("el numero es par");
+        } else {
+            System.out.println("impar");
+        }
+        var edad = 30;
+        var adulto = 18;
+        if (edad >= adulto) {
+            System.out.println("es adulto");
+        } else
+            System.out.println("es menor de edad");
+
+        //Operadores Condicionales
+        var valorA = 7;
+        var valorMinimo =0;
+        var valorMaximo = 10;
+        var respuesta = valorA>=0 && valorA<=10;
+
+        if(respuesta){
+            System.out.println("Esta dentro del rango establecido");
+        }else{
+            System.out.println("Esta fuera del rango establecido");
+        }
+        var vacaciones = false;
+        var diaLibre = true;
+        if(vacaciones||diaLibre){
+            System.out.println("papa puede asistir al juego de su hijo");
+        }else{
+            System.out.println("papa no puede asistir al juego de su hijo");
+        }
+        //Operador Ternario
+        var resultadoT = (5>4)?"Verdadero":"falso";
+        System.out.println("resultadoT = " + resultadoT);
+        var numeroT = 7;
+        resultadoT = (numeroT%2==0?"par":"impar");
+        System.out.println("resultadoT"+resultadoT);
     }
+
+
+
+
+
 }
