@@ -200,7 +200,7 @@ public class main {
         System.out.println("varNum1 division = "+varNum1);
         varNum1%=1;//Operador de Composicion modulo
         System.out.println("varNum1 modulo = "+varNum1);
-        */
+
         //Operadores unarios
         var varA = 7;
         var varB = -varA;
@@ -286,7 +286,22 @@ public class main {
         System.out.println("resultadoT = " + resultadoT);
         var numeroT = 7;
         resultadoT = (numeroT%2==0?"par":"impar");
-        System.out.println("resultadoT"+resultadoT);
+        System.out.println("resultadoT "+resultadoT);
+        */
+
+        var x = 5 ;
+        var y = 10;
+        var z = ++x + y--;
+        System.out.println("x = " + x);
+        System.out.println("y = " + y);
+        System.out.println("z = " + z);
+
+        var solucionAritmetica = 4 +5 *6 / 3; //1°* 2° / 3° +
+        System.out.println("solucionAritmetica = " + solucionAritmetica);
+
+        solucionAritmetica = (4+5)*6/3; //1°() 2°* 3°/
+        System.out.println("solucionAritmetica = " + solucionAritmetica);
+
     }
 
 
