@@ -80,5 +80,5 @@ print('\n',cocina)
 
 
 del cocina
-print(cocina)
+"""print(cocina)"""
 
