@@ -14,6 +14,15 @@ public class EjercicioWhile01 {
         }while(contador<=7);
 
         for(var contador1 =0;contador1<=7;contador1++){
+            if(contador1 % 2 == 0) {
+                System.out.println("contador1 = " + contador1);
+                break;
+            }
+        }
+        for(var contador1 =0;contador1<=7;contador1++){
+            if(contador1 % 2 == 0) {
+                continue;
+            }
             System.out.println("contador1 = " + contador1);
         }
     }
