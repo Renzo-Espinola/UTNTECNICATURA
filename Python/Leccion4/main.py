@@ -1,7 +1,7 @@
 #lista = ariel, liliana, natalia, osvaldo
 # Colecciones en python
 # Las listas es lo que se conoce en otros lenguajes como arreglos o vectores
-
+"""
 nombres = ['Naty','Osvaldo','Lily','Ariel']
 
 print(nombres)
@@ -89,7 +89,7 @@ print('\n',cocina)
 
 del cocina
 
-"""
+
 # Tipo Set
 planetas = {'Marte', 'Jupiter', 'Venus'}
 print(len(planetas))
@@ -154,7 +154,7 @@ print(diccionario)
 
 # Eliminar diccionario
 del diccionario # el diccionario se borro
-"""
+
 # Concatenamos listas
 lista1 = [1,2,3,1]
 lista2 = [4,5,6,1]
@@ -202,7 +202,6 @@ print(len(seleccionArgentina))
 
 # Pilas usando listas
 pila = [1,2,3]
-
 # Agregar elementos a la pila por el final
 pila.append(4)
 pila.append(5)
@@ -211,14 +210,12 @@ print(pila)
 elementoBorrado = pila.pop()# quita el ultimo elemento y lo guarda en la variable
 print(f'sacamos en elemento {elementoBorrado}')
 print(f'la pila ahora quedo asi {pila}')
-
 # Colas con listas Estructura de datos de tipo(FIFO)
 cola =['Ariel','Osvaldo','liliana','Pilar']
 # Agregamos elementos al final de la cola
 cola.append('Natalia')
 cola.append('Jose')
 print(cola)
-
 # Sacamos elementos de la cola
 seRetira = cola.pop(0)
 print(f'Atendido {seRetira}')
@@ -232,4 +229,20 @@ print(cola)
 seRetira = cola.pop(0)
 print(f'Atendido {seRetira}')
 print(cola)
+"""
+# Recorremos el diccionario de la seleccion con un ciclo for
+seleccionArgentina = {
+    10: {'Nombre': 'Lionel Messi', 'edad': 35, 'Altura': 1.70,'Precio': '50 millones','Posicion': 'Extremo Derecho'},
+    11: {'Nombre': 'Angel Di Maria', 'edad': 34, 'Altura': 1.80,'Precio': '12 millones','Posicion': 'Extremo Derecho'},
+    24: {'Nombre': 'Paulo Dybala', 'edad': 28, 'Altura': 1.77,'Precio': '35 millones','Posicion': 'Media Punta'},
+    19: {'Nombre': 'Nicolas Otamendi', 'edad': 34, 'Altura': 1.83,'Precio': '3.5 millones','Posicion': 'Defensa Central'},
+    23:  {'Nombre': 'Franco Armani', 'edad': 35, 'Altura': 1.89,'Precio': '3.5 millones','Posicion': 'Portero'},
+    27: {'Nombre': 'Julian Álvarez','edad': 22, 'Altura': 1.73, 'Precio': '23.000 de euros','Posicion': 'delantero'},
+     5: {'Nombre': 'Leandro Paredes','edad': 28, 'Altura': 1.78, 'Precio': '7.000 millones de euros','Posicion': 'centrocampista'},
+     4: {'Nombre': 'Gonzalo Montiel','edad':  25, 'Altura': 1.75, 'Precio': '14.000 millones de euros','Posicion': 'defensor'},
+     1: {'Nombre': 'Emiliano Martinez','edad':  29, 'Altura': 1.95, 'Precio': '28.000 millones de euros','Posicion': 'arquero'}
+}
+
+for i in seleccionArgentina:
+    print(f'{i} -> {seleccionArgentina[i]}')
 
