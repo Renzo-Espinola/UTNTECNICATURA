@@ -1,7 +1,6 @@
 package ciclos05;
 
 import javax.swing.*;
-import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -18,7 +17,8 @@ public class Ejercicio05 {
         }
         while (numeroSolicitado!=numeroAleatorio){
             contador+=1;
-            numeroSolicitado= Integer.parseInt(JOptionPane.showInputDialog((numeroSolicitado < numeroAleatorio?"Es MAYOR vuelva a ingresar un numero: ":"Es MENOR vuelva a ingresar un numero: ")));
+            numeroSolicitado= Integer.parseInt(JOptionPane.showInputDialog((numeroSolicitado < numeroAleatorio?
+                    "Es MAYOR vuelva a ingresar un numero: ":"Es MENOR vuelva a ingresar un numero: ")));
         }
         JOptionPane.showMessageDialog(null,"  __^__                                                      __^__"+
                 "\n ( ___ )------------------------------------------( ___ )"+
